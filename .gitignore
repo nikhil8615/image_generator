@@ -1,3 +1,11 @@
-node_modules
+# Ignore all node_modules folders
+node_modules/
 
-* .env
+# Ignore .env files everywhere
+*.env
+
+# Or specific paths if needed:
+client/node_modules/
+client/.env
+server/node_modules/
+server/.env
